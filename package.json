@@ -5,6 +5,7 @@
     "dev": "nuxt dev"
   },
   "devDependencies": {
+    "@nuxt/content": "^2.6.0",
     "@nuxthq/ui": "^2.3.0",
     "nuxt": "^3.5.3"
   }
