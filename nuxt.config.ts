@@ -29,7 +29,6 @@ export default defineNuxtConfig({
             redirectOn: 'root'
         },
         defaultLocale: 'nl',
-        lazy: true,
 
         vueI18n: './config/i18n.config.ts'
     }
