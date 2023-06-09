@@ -1,5 +1,6 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "NITRO_PRESET=vercel-edge nuxt build",
     "dev": "nuxt dev"
