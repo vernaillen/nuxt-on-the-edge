@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
-        '@nuxthq/ui',
-        '@nuxtjs/i18n'
+        '@nuxthq/ui''
     ],
 })
