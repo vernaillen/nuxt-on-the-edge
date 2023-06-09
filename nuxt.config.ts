@@ -39,29 +39,16 @@ export default defineNuxtConfig({
             {
                 code: 'en',
                 iso: 'en-US',
-                file: 'en.json',
+                file: 'en-US.json',
                 // domain: 'localhost',
                 name: 'English'
             },
             {
-                code: 'en-GB',
-                iso: 'en-GB',
-                files: ['en.json', 'en-GB.js', 'en-KK.js'],
-                name: 'English (UK)'
-            },
-            {
-                code: 'ja',
-                iso: 'ja-JP',
-                file: 'ja.ts',
-                domain: 'mydomain.com',
-                name: 'Japanses'
-            },
-            {
-                code: 'fr',
-                iso: 'fr-FR',
-                file: 'fr.json',
-                domain: 'mydomain.fr',
-                name: 'Français'
+                code: 'nl',
+                iso: 'nl-BE',
+                file: 'nl-BE.json',
+                domain: 'mydomain.be',
+                name: 'Vlaams'
             }
         ],
         // trailingSlash: true,

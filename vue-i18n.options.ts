@@ -1,17 +1,11 @@
-import fr from './locales/fr.json'
+import nl from './locales/nl-BE.json'
 
 export default defineI18nConfig(() => ({
     legacy: false,
     locale: 'en',
     fallbackLocale: 'en',
     messages: {
-        ja: {
-            bar: {
-                buz: 'こんにちは！{name}!',
-                fn: ({ named }: any) => `こんにちは！${named('name')}!`
-            }
-        },
-        fr
+        nl
     },
     modifiers: {
         // @ts-ignore
