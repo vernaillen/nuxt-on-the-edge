@@ -1,29 +1,9 @@
-import { i18n } from './config/i18n'
-
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     modules: [
-        '@nuxt/content',
-        '@nuxthq/ui',
         '@nuxtjs/i18n'
     ],
-
-    content: {
-        documentDriven: true,
-        markdown: {
-            anchorLinks: false,
-            remarkPlugins: [
-                'remark-breaks'
-            ],
-            rehypePlugins: {
-                'rehype-external-links': {
-                target: '_blank'
-                }
-            }
-        }
-    },
-
-    debug: false,
+    debug: true,
     i18n: {
         experimental: {
             jsTsFormatResource: true
@@ -52,7 +32,7 @@ export default defineNuxtConfig({
             }
         ],
         // trailingSlash: true,
-        debug: false,
+        debug: true,
         defaultLocale: 'en',
         // strategy: 'no_prefix',
         // strategy: 'prefix',
