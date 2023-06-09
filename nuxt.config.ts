@@ -2,6 +2,6 @@
 export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
-        '@nuxthq/ui''
+        '@nuxthq/ui'
     ],
 })
