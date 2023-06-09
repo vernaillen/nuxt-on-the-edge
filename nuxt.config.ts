@@ -4,4 +4,19 @@ export default defineNuxtConfig({
         '@nuxt/content',
         '@nuxthq/ui'
     ],
+
+    content: {
+        documentDriven: true,
+        markdown: {
+            anchorLinks: false,
+            remarkPlugins: [
+                'remark-breaks'
+            ],
+            rehypePlugins: {
+                'rehype-external-links': {
+                target: '_blank'
+                }
+            }
+        }
+    }
 })
