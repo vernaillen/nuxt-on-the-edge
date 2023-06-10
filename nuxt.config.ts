@@ -44,13 +44,6 @@ export default defineNuxtConfig({
         // differentDomains: true,
         // skipSettingLocaleOnNavigate: true,
         // detectBrowserLanguage: false,
-        detectBrowserLanguage: {
-            useCookie: true
-            // alwaysRedirect: true
-            // cookieKey: 'i18n_redirected',
-            // // cookieKey: 'my_custom_cookie_name',
-            // redirectOn: 'root'
-        },
         vueI18n: './vue-i18n.options.ts'
     }
 })

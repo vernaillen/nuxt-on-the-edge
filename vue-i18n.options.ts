@@ -6,9 +6,5 @@ export default defineI18nConfig(() => ({
     fallbackLocale: 'en',
     messages: {
         nl
-    },
-    modifiers: {
-        // @ts-ignore
-        snakeCase: (str: string) => str.split(' ').join('-')
     }
 }))
