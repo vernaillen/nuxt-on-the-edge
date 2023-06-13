@@ -21,12 +21,12 @@ const generatedAt = useState(() => new Date().toISOString())
       />
       <Meta
         name="twitter:image"
-        content="https://nuxt-on-the-edge.vercel.app/og-card.png"
+        content="https://nuxt-on-the-edge.lagon.dev/og-card.png"
       />
       <Meta name="twitter:image:alt" content="The Vercel and Nuxt logos" />
       <Meta
         name="og:image"
-        content="https://nuxt-on-the-edge.vercel.app/og-card.png"
+        content="https://nuxt-on-the-edge.lagon.dev/og-card.png"
       />
     </Head>
     <div style="height: 100%">
@@ -34,21 +34,6 @@ const generatedAt = useState(() => new Date().toISOString())
       <main>
         <h1>Hello from the edge!</h1>
         <div class="info">
-          <div class="block">
-            <div class="contents">
-              <span>Your city</span>
-              <strong
-                :title="
-                  info.city === '-'
-                    ? 'GeoIP information could not be derived from your IP'
-                    : null
-                "
-              >
-                {{ info.city }}
-              </strong>
-            </div>
-          </div>
-
           <div class="block">
             <div class="contents">
               <span>Your IP address</span>
@@ -61,19 +46,19 @@ const generatedAt = useState(() => new Date().toISOString())
     </div>
     <footer>
       <p class="company">
-        <a target="_blank" href="https://vercel.com" aria-label="Vercel">
-          <LogoVercel />
+        <a target="_blank" href="https://lagon.app/" aria-label="Lagon">
+          <img alt="Lagon Logo" loading="lazy" width="80" height="24" decoding="async" data-nimg="1" src="https://lagon.app/logo-white.png" style="color: transparent;"/>
         </a>
       </p>
       <p class="details">
         Built with
         <NuxtLink to="https://v3.nuxtjs.org" target="_blank">Nuxt</NuxtLink>
         on
-        <NuxtLink to="https://vercel.com" target="_blank">Vercel</NuxtLink>
+        <NuxtLink to="https://lagon.app" target="_blank">Lagon</NuxtLink>
       </p>
       <NuxtLink
         target="_blank"
-        href="https://github.com/pi0/nuxt-on-the-edge"
+        href="https://github.com/vernaillen/nuxt-on-the-edge"
         class="source"
       >
         <LogoGithub />

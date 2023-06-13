@@ -2,11 +2,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "NITRO_PRESET=lagon nuxt build",
     "dev": "nuxt dev"
   },
   "devDependencies": {
-    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge",
     "nuxt": "^3.5.3"
   }
 }
