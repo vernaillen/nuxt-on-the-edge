@@ -1,6 +1,12 @@
 <script setup lang="ts">
 const { data: info } = await useFetch('/api/info')
 const generatedAt = useState(() => new Date().toISOString())
+
+useHead({
+  htmlAttrs: {
+    lang: 'en'
+  }
+})
 </script>
 
 <template>
